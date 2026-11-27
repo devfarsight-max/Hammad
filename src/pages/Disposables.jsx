@@ -7,7 +7,7 @@ import Photo from '../components/common/Photo'
 import SectionHeading from '../components/common/SectionHeading'
 
 const actions = [
-  { label: 'Discuss a packaging order', to: '/contact?business=disposables' },
+  { label: 'Discuss a packaging order', to: '/contact' },
   { label: 'See packaging formats', to: '#packaging-formats' },
 ]
 
@@ -56,7 +56,7 @@ export default function Disposables() {
     <section className="cta-section">
       <Container className="cta-row">
         <div><h2>Discuss your packaging needs.</h2><p>Send the intended use, specifications and estimated quantities.</p></div>
-        <Button to="/contact?business=disposables" variant="cream">Start a packaging enquiry</Button>
+        <Button to="/contact" variant="cream">Get in touch about packaging</Button>
       </Container>
     </section>
   </>

@@ -36,7 +36,7 @@ const buyerQuestions = [
   ['Which dairy products suit a café or kitchen?', 'Milk is a starting point for drinks and cooking. Paneer and curd suit prepared dishes, while butter and ghee are useful for baking and cooking.'],
   ['How much dairy should I plan to order?', 'Estimate your weekly use for each product, then check that the pack sizes and delivery frequency fit your chilled storage space.'],
   ['What details help identify a takeaway container?', 'Include the portion size, whether the food is hot or chilled, and any lid, stacking or transport requirements.'],
-  ['Can I enquire about both product ranges?', 'Yes. Choose Both businesses on the enquiry form and list the products and estimated quantities you need from each range.'],
+  ['Can I enquire about both product ranges?', 'Yes. List the products and estimated quantities you need from each range when you get in touch.'],
 ]
 
 const businesses = [
