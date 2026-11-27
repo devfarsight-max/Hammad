@@ -1,0 +1,20 @@
+{
+  "name": "meadow-and-milk",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "vite", "build": "vite build", "preview": "vite preview" },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-router-dom": "7.18.5",
+    "framer-motion": "12.43.0",
+    "lucide-react": "0.468.0"
+  },
+  "devDependencies": {
+    "vite": "6.4.5",
+    "@vitejs/plugin-react": "4.7.0",
+    "tailwindcss": "4.3.5",
+    "@tailwindcss/vite": "4.3.5"
+  }
+}
