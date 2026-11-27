@@ -1,5 +1,5 @@
 ﻿import { Link } from 'react-router-dom'
-import { company } from '../../data/companyData'
+import { company, emailHref, phoneHref } from '../../data/companyData'
 import Container from './Container'
 import Logo from './Logo'
 
@@ -21,7 +21,8 @@ export default function Footer() {
         </nav>
         <div>
           <h2>Get in touch</h2>
-          <p>{company.demo ? company.email : <a href={`mailto:${company.email}`}>{company.email}</a>}</p>
+          <p><a href={emailHref}>{company.email}</a></p>
+          <p><a href={phoneHref}>{company.phone}</a></p>
           <p>{company.address}</p>
           <p><Link to="/contact">Contact details</Link></p>
         </div>
